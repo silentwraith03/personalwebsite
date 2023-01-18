@@ -1,0 +1,108 @@
+baseURL = "http://example.org/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Newbieater"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+ [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "about"
+
+    url = "/about/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "About"
+
+    # Weights are used to determine the ordering
+    weight = 1
+
+    # Weights are used to determine the ordering
+  [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "posts"
+
+    url = "/posts/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Posts"
+
+    # Weights are used to determine the ordering
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/silentwraith03"
+    weight = 4
+    # Using feather-icons
+    pre = "<span data-feather='github'></span>"
+
+  [params]
+  # URL for the avatar on homepage
+  avatarURL = "/images/avatar.jpg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-xs"
+
+  # Description to display on homepage
+  description = "Ossu! Watashi wa namae kunal desu!"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  
+
+  # Footer text
+  footer = "ERROR 404"
+
+    socialIcons = [
+      {name = "linkedin", url = "https://www.linkedin.com/in/kunal-pal-481204255/"},
+      {name = "reddit", url = "https://www.reddit.com/user/_-SilentWraith-_"},
+      {name = "instagram", url = "https://www.instagram.com/__kunalpal_/"},
+      {name = "facebook", url = "https://www.facebook.com/SilentWraith79"},
+      {name = "twitter", url = "https://twitter.com/silentW79"},
+      {name = "stackoverflow", url = "https://stackoverflow.com/users/20973518/kunal-pal"},
+    ]
+
+  [markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
+  
+  
+
+  
