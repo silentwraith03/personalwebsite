@@ -94,7 +94,6 @@ enableRobotsTXT = true
     {name = "instagram", url = "https://www.instagram.com/__kunalpal_/"},
     {name = "facebook", url = "https://www.facebook.com/SilentWraith79"},
     {name = "twitter", url = "https://twitter.com/silentW79"},
-    {name = "stackoverflow", url = "https://stackoverflow.com/users/20973518/kunal-pal"},
   ]
 
 [markup]
